@@ -1,0 +1,58 @@
+/* Border */
+
+#top-bar, 
+#left-bar,
+#right-bar {
+  z-index: 1;
+  background: #FAF9f6;
+  position: fixed;
+}
+
+#top-bar {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  border-bottom: 1px solid black;
+}
+
+#left-bar,
+#right-bar{
+  top: 0;
+  bottom: 0;
+  width: 40px;
+}
+
+#left-bar {
+  left: 0;
+  border-right: 1px solid black;
+}
+
+#right-bar {
+  right: 0;
+  border-left: 1px solid black;
+}
+
+/* Video Background Styling */
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* General Styling */
+
+.button.button-primary.hero {
+  background-color: #000;
+  border-color: #FFA6C9;
+  height: 100px;
+  width: 45%;
+  text-align: right;
+}
