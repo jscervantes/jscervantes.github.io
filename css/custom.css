@@ -49,10 +49,19 @@
 
 /* General Styling */
 
+.big-box {
+  background-color: #F172A1;
+  border-radius: 4px;
+}
+
 .button.button-primary.hero {
   background-color: #000;
   border-color: #FFA6C9;
-  height: 100px;
-  width: 45%;
+  height: 200px;
+  width: 100%;
   text-align: right;
+}
+
+.hero-button {
+  margin-left: 1%;
 }
