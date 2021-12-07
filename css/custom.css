@@ -49,6 +49,17 @@
 
 /* General Styling */
 
+#title {
+  margin-top: 30%;
+}
+
+@media (min-width: 400px) {
+  #title {
+    margin-top: 20%;
+    margin-bottom: 0;
+  }
+}
+
 .big-box {
   background-color: #F172A1;
   border-radius: 4px;
@@ -57,11 +68,12 @@
 .button.button-primary.hero {
   background-color: #000;
   border-color: #FFA6C9;
-  height: 200px;
-  width: 100%;
+  height: 300px;
+  width: 120px;
   text-align: right;
 }
 
 .hero-button {
-  margin-left: 1%;
+  margin-left: 2%;
 }
+
