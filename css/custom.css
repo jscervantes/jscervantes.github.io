@@ -74,13 +74,15 @@
 
 .big-box {
   background-color: #F172A1;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .button.button-primary.hero {
   background-color: #000;
   border-color: #FFA6C9;
+  padding: 0 10%;
   height: 300px;
   width: 80%;
+  border-radius: 0px;
   text-align: right;
 }
