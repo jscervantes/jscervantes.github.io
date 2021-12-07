@@ -49,15 +49,27 @@
 
 /* General Styling */
 
-#title {
-  margin-top: 30%;
+/* Hero */
+
+.container-flex{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 400px) {
-  #title {
-    margin-top: 20%;
-    margin-bottom: 0;
+  .container-flex{
+    flex-direction: row;
+    justify-content: center;
   }
+}
+
+.container-flex div {
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+  float: none;
 }
 
 .big-box {
@@ -69,11 +81,6 @@
   background-color: #000;
   border-color: #FFA6C9;
   height: 300px;
-  width: 120px;
+  width: 80%;
   text-align: right;
 }
-
-.hero-button {
-  margin-left: 2%;
-}
-
