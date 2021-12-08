@@ -16,6 +16,17 @@
   border-bottom: 1px solid black;
 }
 
+.flex-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-title h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
 #left-bar,
 #right-bar{
   top: 0;
