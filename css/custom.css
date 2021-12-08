@@ -107,3 +107,24 @@
 .privacy {
   text-align: center;
 }
+
+/* Footer Styling */
+
+#flex-footer {
+  display: flex;
+  margin-top: 10%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#flex-footer div {
+
+  }
+
+.flex-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-links div {
+  
