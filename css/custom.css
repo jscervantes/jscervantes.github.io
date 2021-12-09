@@ -137,9 +137,15 @@
   align-items: center;
 }
 
+#flex-footer a {
+  color: black;
+  text-decoration: none;
+}
+
 .copyright,
 .contact {
   height: 100%;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,12 +156,10 @@
   flex-direction: column;
 }
 
-.flex-links div {
-} 
-
-.flex-links a {
+/* .flex-links a {
   color: black;
   text-decoration: none;
 }
+*/
 
 
