@@ -85,6 +85,7 @@
 
 #name {
   margin-top: 30%;
+  text-align: center;
 }
 
 @media (min-width: 550px) {
