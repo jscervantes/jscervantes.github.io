@@ -113,11 +113,15 @@
   text-align: right;
 }
 
+#profile-pic img {
+  max-width: 100%;
+  height: auto;  
+}
+/* Footer Styling */
+
 .privacy {
   text-align: center;
 }
-
-/* Footer Styling */
 
 #flex-footer {
   height: 100%;
