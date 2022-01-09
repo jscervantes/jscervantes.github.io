@@ -103,6 +103,9 @@
   border-radius: 0px;
 }
 
+.big-box, p {
+    padding: 10px;
+}
 .button.button-primary.hero {
   background-color: #000;
   border-color: #FFA6C9;
@@ -113,10 +116,16 @@
   text-align: right;
 }
 
+.button.button-primary.hero:hover {
+    transform: scale(1.1);
+    border-color: #48d1cc;
+}
+
 #profile-pic img {
   max-width: 100%;
   height: auto;  
 }
+
 /* Footer Styling */
 
 .privacy {
