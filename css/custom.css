@@ -136,6 +136,7 @@
   height: 100%;
   display: flex;
   margin-top: 10%;
+  margin-bottom: 5%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -143,7 +144,6 @@
 
 @media (min-width: 550px) {
   #flex-footer {
-  margin-bottom: 1%;
   }
 }
 
