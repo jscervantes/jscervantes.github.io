@@ -143,13 +143,13 @@
 
 @media (min-width: 550px) {
   #flex-footer {
+  margin-bottom: 1%;
   }
 }
 
 #flex-footer div {
   text-align: center;
   align-items: center;
-  margin-bottom: 1%;
 }
 
 #flex-footer a {
