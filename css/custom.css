@@ -101,6 +101,7 @@
 .big-box {
   background-color: #FAF9f6;
   border-style: solid;
+  border-color: black;
   border: 1.5px;
   border-radius: 0px;
 }
